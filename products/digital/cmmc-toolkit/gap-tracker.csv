@@ -1,0 +1,111 @@
+Control ID,Family,Control Name,Status,Owner,Evidence Location,Gap Notes,Priority,SPRS Score Impact
+3.1.1,3.1,"Limit system access to authorized users, processes, devices",Not Assessed,,,,,110
+3.1.2,3.1,Limit access to authorized transactions/functions,Not Assessed,,,,,110
+3.1.3,3.1,Control the flow of CUI per approved authorizations,Not Assessed,,,,,110
+3.1.4,3.1,Separate duties of individuals,Not Assessed,,,,,110
+3.1.5,3.1,Employ least privilege,Not Assessed,,,,,110
+3.1.6,3.1,Use non-privileged accounts for non-security functions,Not Assessed,,,,,110
+3.1.7,3.1,Prevent non-privileged execution of privileged functions; audit them,Not Assessed,,,,,110
+3.1.8,3.1,Limit unsuccessful logon attempts,Not Assessed,,,,,110
+3.1.9,3.1,Privacy/security notices (monitoring consent),Not Assessed,,,,,110
+3.1.10,3.1,Session lock with pattern-hiding,Not Assessed,,,,,110
+3.1.11,3.1,Terminate sessions after defined conditions,Not Assessed,,,,,110
+3.1.12,3.1,Monitor and control remote-access sessions,Not Assessed,,,,,110
+3.1.13,3.1,Cryptographic protection of CUI in transit,Not Assessed,,,,,110
+3.1.14,3.1,Route remote access through managed control points,Not Assessed,,,,,110
+3.1.15,3.1,Encrypt CUI on remote-access devices,Not Assessed,,,,,110
+3.1.16,3.1,Implement session lock/termination controls (prove it fires),Not Assessed,,,,,110
+3.1.17,3.1,Refuse network requests by origin (allowlists),Not Assessed,,,,,110
+3.1.18,3.1,Control WLANs for CUI,Not Assessed,,,,,110
+3.1.19,3.1,Encrypt CUI on mobile devices,Not Assessed,,,,,110
+3.1.20,3.1,Verify/control connections to external systems,Not Assessed,,,,,110
+3.1.21,3.1,Limit external connections to systems storing CUI,Not Assessed,,,,,110
+3.1.22,3.1,FCI/CUI disclosure controls,Not Assessed,,,,,110
+3.2.1,3.2,Ensure MGMT/admins/security trained,Not Assessed,,,,,110
+3.2.2,3.2,Ensure personnel trained for security duties,Not Assessed,,,,,110
+3.2.3,3.2,Training on recognizing/reporting threats,Not Assessed,,,,,110
+3.3.1,3.3,Create/protect audit logs,Not Assessed,,,,,110
+3.3.2,3.3,Protect audit info + correct problems,Not Assessed,,,,,110
+3.3.3,3.3,Review and analyze logs,Not Assessed,,,,,110
+3.3.4,3.3,Alert on audit process failure,Not Assessed,,,,,110
+3.3.5,3.3,Correlate audit info,Not Assessed,,,,,110
+3.3.6,3.3,Define audit events,Not Assessed,,,,,110
+3.3.7,3.3,Audit reduction/reporting,Not Assessed,,,,,110
+3.3.8,3.3,Approved timestamps (NTP),Not Assessed,,,,,110
+3.3.9,3.3,Protect audit info from unauthorized access,Not Assessed,,,,,110
+3.4.1,3.4,Establish configuration settings (baseline),Not Assessed,,,,,110
+3.4.2,3.4,Enforce security config settings,Not Assessed,,,,,110
+3.4.3,3.4,Track/monitor/control config changes,Not Assessed,,,,,110
+3.4.4,3.4,Analyze security impact of changes,Not Assessed,,,,,110
+3.4.5,3.4,Define/limit ports/protocols/services,Not Assessed,,,,,110
+3.4.6,3.4,Restrict/remove unnecessary programs,Not Assessed,,,,,110
+3.4.7,3.4,Control/monitor user-installed software,Not Assessed,,,,,110
+3.4.8,3.4,Deny-by-exception software policy,Not Assessed,,,,,110
+3.4.9,3.4,Monitor security-relevant COTS/GOTS config,Not Assessed,,,,,110
+3.5.1,3.5,Identify users/processes/devices,Not Assessed,,,,,110
+3.5.2,3.5,Authenticate uniquely (MFA on remote),Not Assessed,,,,,110
+3.5.3,3.5,MFA for privileged/network access,Not Assessed,,,,,110
+3.5.4,3.5,Replay-resistant auth,Not Assessed,,,,,110
+3.5.5,3.5,Prevent reuse of identifiers,Not Assessed,,,,,110
+3.5.6,3.5,Disable identifiers after inactivity,Not Assessed,,,,,110
+3.5.7,3.5,Password complexity minimum,Not Assessed,,,,,110
+3.5.8,3.5,Prohibit password reuse,Not Assessed,,,,,110
+3.5.9,3.5,Temporary passwords changed on first login,Not Assessed,,,,,110
+3.5.10,3.5,Store/transmit cryptographically-protected passwords,Not Assessed,,,,,110
+3.5.11,3.5,Obscure auth feedback,Not Assessed,,,,,110
+3.6.1,3.6,Establish IR capability,Not Assessed,,,,,110
+3.6.2,3.6,Track/document/correct incidents,Not Assessed,,,,,110
+3.6.3,3.6,Test IR processes,Not Assessed,,,,,110
+3.7.1,3.7,Perform maintenance (patching),Not Assessed,,,,,110
+3.7.2,3.7,Supervise/spare equipment/logistics,Not Assessed,,,,,110
+3.7.3,3.7,Maintenance personnel approved access,Not Assessed,,,,,110
+3.7.4,3.7,MFA for remote maintenance,Not Assessed,,,,,110
+3.7.5,3.7,Supervise/protect non-local maintenance,Not Assessed,,,,,110
+3.7.6,3.7,Sanitize removed CUI components,Not Assessed,,,,,110
+3.8.1,3.8,Mark CUI media,Not Assessed,,,,,110
+3.8.2,3.8,Restrict access to CUI media,Not Assessed,,,,,110
+3.8.3,3.8,Log removal of media,Not Assessed,,,,,110
+3.8.4,3.8,Protect media in transport,Not Assessed,,,,,110
+3.8.5,3.8,Control accountability for stored media,Not Assessed,,,,,110
+3.8.6,3.8,Cryptographic protection at rest,Not Assessed,,,,,110
+3.8.7,3.8,Remove CUI before disposal (NIST 800-88),Not Assessed,,,,,110
+3.8.8,3.8,Sanitize before external release,Not Assessed,,,,,110
+3.8.9,3.8,Control media access in exit facilities,Not Assessed,,,,,110
+3.9.1,3.9,Screen personnel (background checks),Not Assessed,,,,,110
+3.9.2,3.9,Terminate access on personnel actions,Not Assessed,,,,,110
+3.10.1,3.10,Limit physical access to CUI systems,Not Assessed,,,,,110
+3.10.2,3.10,Visitor provisions/controls,Not Assessed,,,,,110
+3.10.3,3.10,Control/monitor physical access (logs),Not Assessed,,,,,110
+3.10.4,3.10,Escort visitors,Not Assessed,,,,,110
+3.10.5,3.10,Manage access devices (keys/badges),Not Assessed,,,,,110
+3.10.6,3.10,Safeguards for CUI at work/remote,Not Assessed,,,,,110
+3.11.1,3.11,Periodic risk assessment,Not Assessed,,,,,110
+3.11.2,3.11,Vulnerability scanning,Not Assessed,,,,,110
+3.11.3,3.11,Remediate vulnerabilities per risk,Not Assessed,,,,,110
+3.12.1,3.12,Periodically assess security controls,Not Assessed,,,,,110
+3.12.2,3.12,Develop/document POA&M,Not Assessed,,,,,110
+3.12.3,3.12,Monitor controls ongoing,Not Assessed,,,,,110
+3.12.4,3.12,Develop/validate plan for inadequate controls,Not Assessed,,,,,110
+3.13.1,3.13,Boundary protections,Not Assessed,,,,,110
+3.13.2,3.13,Partition into defined components,Not Assessed,,,,,110
+3.13.3,3.13,Communications control (logical separation),Not Assessed,,,,,110
+3.13.4,3.13,Deny-by-default network,Not Assessed,,,,,110
+3.13.5,3.13,Subnetworks for public systems (DMZ),Not Assessed,,,,,110
+3.13.6,3.13,Prevent public-subnet hopping,Not Assessed,,,,,110
+3.13.7,3.13,Session authenticity,Not Assessed,,,,,110
+3.13.8,3.13,FIPS-validated crypto,Not Assessed,,,,,110
+3.13.9,3.13,Prohibit remote activation of collaborative devices,Not Assessed,,,,,110
+3.13.10,3.13,Secure CUI transmission,Not Assessed,,,,,110
+3.13.11,3.13,Encrypt command/control traffic,Not Assessed,,,,,110
+3.13.12,3.13,Encrypt CUI at rest,Not Assessed,,,,,110
+3.13.13,3.13,Approved random generators,Not Assessed,,,,,110
+3.13.14,3.13,Protect CUI on shared resources,Not Assessed,,,,,110
+3.13.15,3.13,Collaborate externally to protect CUI (agreements),Not Assessed,,,,,110
+3.13.16,3.13,PKI maps identity to keys,Not Assessed,,,,,110
+3.14.1,3.14,Identify/report/remediate flaws (patch mgmt),Not Assessed,,,,,110
+3.14.2,3.14,Protection from malicious code (EDR/AV),Not Assessed,,,,,110
+3.14.3,3.14,Monitor integrity alerts,Not Assessed,,,,,110
+3.14.4,3.14,Update malicious-code protection,Not Assessed,,,,,110
+3.14.5,3.14,Periodic scans / real-time monitoring,Not Assessed,,,,,110
+3.14.6,3.14,Monitor suspicious behavior (EDR),Not Assessed,,,,,110
+3.14.7,3.14,Integrate malicious-code protection,Not Assessed,,,,,110
