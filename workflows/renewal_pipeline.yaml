@@ -1,0 +1,14 @@
+# Renewal Pipeline
+
+## Stages
+1. **Notification:** Billing sends renewal reminders.
+2. **Client Confirmation:** Client status updated by Correspondence (auto-reply or manual).
+3. **Payment Processing:** Billing collects renewal payment.
+4. **Re-engagement:** If payment fails, Correspondence/Seller re-engage.
+
+## Triggers
+- Subscription end date approaching.
+
+## Outputs
+- Continued recurring revenue.
+- Updated subscription status.

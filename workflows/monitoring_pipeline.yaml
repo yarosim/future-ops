@@ -1,0 +1,16 @@
+# Monitoring Pipeline
+
+## Stages
+1. **Health Check:** Monitor continuously checks system stability.
+2. **Performance Analysis:** Performance metrics are tracked against benchmarks.
+3. **Anomaly Detection:** Cost and Monitor agents flag deviations.
+4. **Alerting:** Issues are logged and escalated based on severity.
+
+## Triggers
+- Scheduled intervals.
+- Real-time system events.
+
+## Outputs
+- Health reports.
+- Performance dashboards.
+- Alert notifications.

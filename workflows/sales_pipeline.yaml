@@ -1,0 +1,15 @@
+# Sales Pipeline
+
+## Stages
+1. **Packaging:** Einstein defines product structure and pricing.
+2. **Offer Creation:** Seller generates sales assets (pages, emails).
+3. **Outreach:** Seller executes sales campaigns.
+4. **Conversion:** Billing confirms payment.
+
+## Triggers
+- Prioritized opportunities from Opportunity Pipeline.
+- New product definitions from Productizer.
+
+## Outputs
+- Closed deals and paying customers.
+- Updated sales metrics.

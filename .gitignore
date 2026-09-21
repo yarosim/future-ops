@@ -1,0 +1,38 @@
+# Secrets & credentials — NEVER commit
+secrets/
+*.env
+credentials/
+*credential*
+.env*
+
+# Runtime & logs
+logs/
+*.log
+.venv/
+__pycache__/
+node_modules/
+
+# Private context
+memory/
+MEMORY.md
+HEARTBEAT.md
+outputs/improvement-plan-*.md
+
+# OS
+Thumbs.db
+tmp/
+.tmp/
+state/
+youtube/
+swipe/
+turo*
+cohort*
+cohorts/
+campaigns/
+.openclaw/
+*.txt
+turo-monitor*
+
+claude/
+secrets_update_report.md
+*.xlsx

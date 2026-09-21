@@ -1,0 +1,16 @@
+# Escalation Pipeline
+
+## Stages
+1. **Detection:** Monitor or Cost agent identifies a critical issue.
+2. **Logging:** Issue details logged with severity level.
+3. **Notification:** Tom is alerted (or Simon for P0).
+4. **Action/Pause:** Affected agents pause their workflows.
+5. **Resolution:** Tom (or Simon) directs resolution steps.
+6. **Review:** Post-mortem analysis to prevent recurrence.
+
+## Triggers
+- Critical system events (as defined in `brain/escalation_policy.md`).
+
+## Outputs
+- Resolved issues.
+- Updated safety protocols or agent constraints.

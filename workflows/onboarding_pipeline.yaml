@@ -1,0 +1,15 @@
+# Onboarding Pipeline
+
+## Stages
+1. **Initiation:** Correspondence confirms sale and initiates onboarding.
+2. **Provisioning:** Fulfillment deploys required assets and services.
+3. **Configuration:** Fulfillment or automated scripts configure client-specific settings.
+4. **Activation:** Client gains access, and Monitor confirms system health.
+
+## Triggers
+- Successful payment confirmation from Billing.
+- New client record created by Seller.
+
+## Outputs
+- Activated clients.
+- Successful deployment reports.

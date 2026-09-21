@@ -1,0 +1,15 @@
+# Deployment Pipeline
+
+## Stages
+1. **Preparation:** Fulfillment pulls necessary scripts and RAG data.
+2. **Execution:** Fulfillment runs deployment scripts.
+3. **Verification:** Monitor confirms successful deployment and initial health.
+4. **Handover:** Client receives access/credentials; Correspondence provides initial updates.
+
+## Triggers
+- Onboarding initiation.
+- Specific product deployment requests.
+
+## Outputs
+- Deployed services/products.
+- Deployment logs and status reports.
