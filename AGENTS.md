@@ -211,6 +211,7 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 ## Failure-Cost Policy (2026-09-21, Simon-approved)
 - Any cron/automation that fails 2x consecutively gets DISABLED immediately (cost control) — no more blind retries. Re-enable only after diagnosing the failure and confirming the fix (test with `openclaw cron run`).
 - Applied 2026-09-21: Daily Telegram Report (3af0b81f, 15x route-era errors) and YouTube Weekly (1e83db06) disabled. Previously-erroring Ops Guardian / Revenue Tracker / Revenue Finder all validated OK after route repoint — left enabled.
+- **Fix-and-restart loop (Simon, 13:05):** after pausing, diagnose the failure, apply the fix, then `openclaw cron run` to validate; keep restarting until a clean run. If the failure root-cause is not identifiable/predictable, stay paused until it is.
 
 ## Make It Yours
 
