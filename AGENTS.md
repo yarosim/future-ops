@@ -208,6 +208,10 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - Secrets NEVER enter git: .gitignore covers secrets/, *.env, credentials/, memory/, logs. Scan staged diff for sk_live|github_pat|whsec before every commit (2 live Stripe keys were caught and scrubbed in the initial commit).
 - Local git repo initialized: workspace on branch main, commit 77c29fc (325 files).
 
+## Failure-Cost Policy (2026-09-21, Simon-approved)
+- Any cron/automation that fails 2x consecutively gets DISABLED immediately (cost control) — no more blind retries. Re-enable only after diagnosing the failure and confirming the fix (test with `openclaw cron run`).
+- Applied 2026-09-21: Daily Telegram Report (3af0b81f, 15x route-era errors) and YouTube Weekly (1e83db06) disabled. Previously-erroring Ops Guardian / Revenue Tracker / Revenue Finder all validated OK after route repoint — left enabled.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
