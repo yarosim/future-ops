@@ -203,6 +203,11 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Git / GitHub Policy (2026-09-21, Simon-approved)
+- ALL coding work in this workspace is committed to git and pushed to github.com/yarosim (repo: future-ops once writable; landing page → yarosim/yarosecurity GitHub Pages).
+- Secrets NEVER enter git: .gitignore covers secrets/, *.env, credentials/, memory/, logs. Scan staged diff for sk_live|github_pat|whsec before every commit (2 live Stripe keys were caught and scrubbed in the initial commit).
+- Local git repo initialized: workspace on branch main, commit 77c29fc (325 files).
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
